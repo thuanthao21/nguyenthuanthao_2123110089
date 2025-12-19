@@ -132,5 +132,23 @@
             FormBai20 bai20 = new FormBai20();
             bai20.Show();
         }
+
+        private void btn_bai21_Click(object sender, EventArgs e)
+        {
+            FormBai21 bai21 = new FormBai21();
+            bai21.Show();
+        }
+
+        private void btn_bai22_Click(object sender, EventArgs e)
+        {
+            FormBai22 bai22 = new FormBai22();
+            bai22.Show();
+        }
+
+        private void btn_bai23_Click(object sender, EventArgs e)
+        {
+            FormBai23 bai23 = new FormBai23();
+            bai23.Show();
+        }
     }
 }

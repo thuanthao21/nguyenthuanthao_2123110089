@@ -48,6 +48,9 @@
             btn_bai18 = new Button();
             btn_bai19 = new Button();
             btn_bai20 = new Button();
+            btn_bai21 = new Button();
+            btn_bai22 = new Button();
+            btn_bai23 = new Button();
             SuspendLayout();
             // 
             // btn_bai1
@@ -290,11 +293,50 @@
             btn_bai20.UseVisualStyleBackColor = false;
             btn_bai20.Click += btn_bai20_Click;
             // 
+            // btn_bai21
+            // 
+            btn_bai21.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai21.Location = new Point(475, 568);
+            btn_bai21.Margin = new Padding(3, 4, 3, 4);
+            btn_bai21.Name = "btn_bai21";
+            btn_bai21.Size = new Size(173, 84);
+            btn_bai21.TabIndex = 20;
+            btn_bai21.Text = "Bài 21";
+            btn_bai21.UseVisualStyleBackColor = false;
+            btn_bai21.Click += btn_bai21_Click;
+            // 
+            // btn_bai22
+            // 
+            btn_bai22.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai22.Location = new Point(35, 660);
+            btn_bai22.Margin = new Padding(3, 4, 3, 4);
+            btn_bai22.Name = "btn_bai22";
+            btn_bai22.Size = new Size(173, 84);
+            btn_bai22.TabIndex = 21;
+            btn_bai22.Text = "Bài 22";
+            btn_bai22.UseVisualStyleBackColor = false;
+            btn_bai22.Click += btn_bai22_Click;
+            // 
+            // btn_bai23
+            // 
+            btn_bai23.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai23.Location = new Point(261, 660);
+            btn_bai23.Margin = new Padding(3, 4, 3, 4);
+            btn_bai23.Name = "btn_bai23";
+            btn_bai23.Size = new Size(173, 84);
+            btn_bai23.TabIndex = 22;
+            btn_bai23.Text = "Bài 23";
+            btn_bai23.UseVisualStyleBackColor = false;
+            btn_bai23.Click += btn_bai23_Click;
+            // 
             // menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(684, 820);
+            Controls.Add(btn_bai23);
+            Controls.Add(btn_bai22);
+            Controls.Add(btn_bai21);
             Controls.Add(btn_bai20);
             Controls.Add(btn_bai19);
             Controls.Add(btn_bai18);
@@ -347,5 +389,8 @@
         private Button btn_bai18;
         private Button btn_bai19;
         private Button btn_bai20;
+        private Button btn_bai21;
+        private Button btn_bai22;
+        private Button btn_bai23;
     }
 }
