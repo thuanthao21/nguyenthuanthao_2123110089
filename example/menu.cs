@@ -66,5 +66,71 @@
             FormBai9 bai9 = new FormBai9();
             bai9.Show();
         }
+
+        private void btn_bai10_Click(object sender, EventArgs e)
+        {
+            FormBai10 bai10 = new FormBai10();
+            bai10.Show();
+        }
+
+        private void btn_bai11_Click(object sender, EventArgs e)
+        {
+            FormBai11 bai11 = new FormBai11();
+            bai11.Show();
+        }
+
+        private void btn_bai12_Click(object sender, EventArgs e)
+        {
+            FormBai12 bai12 = new FormBai12();
+            bai12.Show();
+        }
+
+        private void btn_bai13_Click(object sender, EventArgs e)
+        {
+            FormBai13 bai13 = new FormBai13();
+            bai13.Show();
+        }
+
+        private void btn_bai14_Click(object sender, EventArgs e)
+        {
+            FormBai14 bai14 = new FormBai14();
+            bai14.Show();
+        }
+
+        private void btn_bai15_Click(object sender, EventArgs e)
+        {
+            FormBai15 bai15 = new FormBai15();
+            bai15.Show();
+        }
+
+        private void btn_bai16_Click(object sender, EventArgs e)
+        {
+            FormBai16 bai16 = new FormBai16();
+            bai16.Show();
+        }
+
+        private void btn_bai17_Click(object sender, EventArgs e)
+        {
+            FormBai17 bai17 = new FormBai17();
+            bai17.Show();
+        }
+
+        private void btn_bai18_Click(object sender, EventArgs e)
+        {
+            FormBai18 bai18 = new FormBai18();
+            bai18.Show();
+        }
+
+        private void btn_bai19_Click(object sender, EventArgs e)
+        {
+            FormBai19 bai19 = new FormBai19();
+            bai19.Show();
+        }
+
+        private void btn_bai20_Click(object sender, EventArgs e)
+        {
+            FormBai20 bai20 = new FormBai20();
+            bai20.Show();
+        }
     }
 }
