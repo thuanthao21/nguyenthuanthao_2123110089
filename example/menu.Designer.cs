@@ -51,6 +51,12 @@
             btn_bai21 = new Button();
             btn_bai22 = new Button();
             btn_bai23 = new Button();
+            btn_bai24 = new Button();
+            btn_bai25 = new Button();
+            btn_bai26 = new Button();
+            btn_bai27 = new Button();
+            btn_bai28 = new Button();
+            btn_bai29 = new Button();
             SuspendLayout();
             // 
             // btn_bai1
@@ -329,11 +335,89 @@
             btn_bai23.UseVisualStyleBackColor = false;
             btn_bai23.Click += btn_bai23_Click;
             // 
+            // btn_bai24
+            // 
+            btn_bai24.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai24.Location = new Point(475, 660);
+            btn_bai24.Margin = new Padding(3, 4, 3, 4);
+            btn_bai24.Name = "btn_bai24";
+            btn_bai24.Size = new Size(173, 84);
+            btn_bai24.TabIndex = 23;
+            btn_bai24.Text = "Bài 24";
+            btn_bai24.UseVisualStyleBackColor = false;
+            btn_bai24.Click += btn_bai24_Click;
+            // 
+            // btn_bai25
+            // 
+            btn_bai25.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai25.Location = new Point(35, 752);
+            btn_bai25.Margin = new Padding(3, 4, 3, 4);
+            btn_bai25.Name = "btn_bai25";
+            btn_bai25.Size = new Size(173, 84);
+            btn_bai25.TabIndex = 24;
+            btn_bai25.Text = "Bài 25";
+            btn_bai25.UseVisualStyleBackColor = false;
+            btn_bai25.Click += btn_bai25_Click;
+            // 
+            // btn_bai26
+            // 
+            btn_bai26.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai26.Location = new Point(261, 752);
+            btn_bai26.Margin = new Padding(3, 4, 3, 4);
+            btn_bai26.Name = "btn_bai26";
+            btn_bai26.Size = new Size(173, 84);
+            btn_bai26.TabIndex = 25;
+            btn_bai26.Text = "Bài 26";
+            btn_bai26.UseVisualStyleBackColor = false;
+            btn_bai26.Click += btn_bai26_Click;
+            // 
+            // btn_bai27
+            // 
+            btn_bai27.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai27.Location = new Point(475, 752);
+            btn_bai27.Margin = new Padding(3, 4, 3, 4);
+            btn_bai27.Name = "btn_bai27";
+            btn_bai27.Size = new Size(173, 84);
+            btn_bai27.TabIndex = 26;
+            btn_bai27.Text = "Bài 27";
+            btn_bai27.UseVisualStyleBackColor = false;
+            btn_bai27.Click += btn_bai27_Click;
+            // 
+            // btn_bai28
+            // 
+            btn_bai28.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai28.Location = new Point(35, 844);
+            btn_bai28.Margin = new Padding(3, 4, 3, 4);
+            btn_bai28.Name = "btn_bai28";
+            btn_bai28.Size = new Size(173, 84);
+            btn_bai28.TabIndex = 27;
+            btn_bai28.Text = "Bài 28";
+            btn_bai28.UseVisualStyleBackColor = false;
+            btn_bai28.Click += btn_bai28_Click;
+            // 
+            // btn_bai29
+            // 
+            btn_bai29.BackColor = Color.FromArgb(192, 0, 192);
+            btn_bai29.Location = new Point(261, 844);
+            btn_bai29.Margin = new Padding(3, 4, 3, 4);
+            btn_bai29.Name = "btn_bai29";
+            btn_bai29.Size = new Size(173, 84);
+            btn_bai29.TabIndex = 28;
+            btn_bai29.Text = "Bài 29";
+            btn_bai29.UseVisualStyleBackColor = false;
+            btn_bai29.Click += btn_bai29_Click;
+            // 
             // menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(684, 820);
+            ClientSize = new Size(684, 987);
+            Controls.Add(btn_bai29);
+            Controls.Add(btn_bai28);
+            Controls.Add(btn_bai27);
+            Controls.Add(btn_bai26);
+            Controls.Add(btn_bai25);
+            Controls.Add(btn_bai24);
             Controls.Add(btn_bai23);
             Controls.Add(btn_bai22);
             Controls.Add(btn_bai21);
@@ -392,5 +476,11 @@
         private Button btn_bai21;
         private Button btn_bai22;
         private Button btn_bai23;
+        private Button btn_bai24;
+        private Button btn_bai25;
+        private Button btn_bai26;
+        private Button btn_bai27;
+        private Button btn_bai28;
+        private Button btn_bai29;
     }
 }

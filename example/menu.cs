@@ -150,5 +150,41 @@
             FormBai23 bai23 = new FormBai23();
             bai23.Show();
         }
+
+        private void btn_bai24_Click(object sender, EventArgs e)
+        {
+            FormBai24 bai24 = new FormBai24();
+            bai24.Show();
+        }
+
+        private void btn_bai25_Click(object sender, EventArgs e)
+        {
+            FormBai25 bai25 = new FormBai25();
+            bai25.Show();
+        }
+
+        private void btn_bai26_Click(object sender, EventArgs e)
+        {
+            FormBai26 bai26 = new FormBai26();
+            bai26.Show();
+        }
+
+        private void btn_bai27_Click(object sender, EventArgs e)
+        {
+            FormBai27 bai27 = new FormBai27();
+            bai27.Show();
+        }
+
+        private void btn_bai28_Click(object sender, EventArgs e)
+        {
+            FormBai28 bai28 = new FormBai28();
+            bai28.Show();
+        }
+
+        private void btn_bai29_Click(object sender, EventArgs e)
+        {
+            FormBai29 bai29 = new FormBai29();
+            bai29.Show();
+        }
     }
 }
